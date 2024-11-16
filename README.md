@@ -46,9 +46,9 @@ Here are the most common UB types that Miri catches:
 
 - **Uninitialized Memory**: Using memory that's never been initialised.
 - **Data Races**: Concurrent threads accessing the same memory without proper synchronization.
-- - **Dangling Pointers**: Pointers to memory that's already been freed or moved.
-- - **Misaligned Memory Access**: Accessing memory at an offset that doesn't match its required alignment.
-- - **Violations of Rust's Borrowing Rules**: Especially likely to pop up in `unsafe`code.
+- **Dangling Pointers**: Pointers to memory that's already been freed or moved.
+- **Misaligned Memory Access**: Accessing memory at an offset that doesn't match its required alignment.
+- **Violations of Rust's Borrowing Rules**: Especially likely to pop up in `unsafe`code.
 
 ## 3. Practical Examples: Miri in Action
 
